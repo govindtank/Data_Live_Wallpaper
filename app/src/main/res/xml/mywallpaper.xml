@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wallpaper
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/app_name"
+    android:settingsActivity="com.digitalwellbeingexperiments.toolkit.datalivewallpaper.MyPreferenceActivity"
+    android:thumbnail="@mipmap/ic_launcher"/>
+
+
+<!--    android:settingsActivity="com.digitalwellbeingexperiments.toolkit.datalivewallpaper.MyWallpaperActivity"-->
