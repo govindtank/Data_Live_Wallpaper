@@ -22,11 +22,12 @@ class SetWallpaperActivity : Activity() {
         Log.d("click","before")
         intent.putExtra(
             WallpaperManager.EXTRA_LIVE_WALLPAPER_COMPONENT,
+            //unlock conter activity commented
 //            ComponentName(this, UnlockCounterWallpaper::class.java)
             ComponentName(this, MyWallpaperService::class.java)
 
         )
         startActivity(intent)
-        Log.d("click","after")
+        Log.d("click","after changing live wallpaper")
     }
 }
