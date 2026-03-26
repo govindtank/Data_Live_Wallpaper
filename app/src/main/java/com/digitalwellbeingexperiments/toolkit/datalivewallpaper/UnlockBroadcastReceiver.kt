@@ -41,9 +41,7 @@ object UnlockBroadcastReceiver : BroadcastReceiver() {
                         putInt(COUNT_PREFERENCE, 1)
                         putLong(
                             DAY_END_MS_PREFERENCE,
-                            endOfDay(
-                                now
-                            )
+                            endOfDay(now)
                         )
                     }.apply()
                 }
